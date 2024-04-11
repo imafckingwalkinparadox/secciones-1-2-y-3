@@ -1,0 +1,102 @@
+.section1 {
+    width: 39.6rem;
+    height: 28.3rem;
+    margin: auto;
+
+    border: solid 1px black;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    background-color: #F9F3FE;
+}
+
+.section1 .fila1 {
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    padding: 10px;
+    gap: 5.5rem;
+    background-color: rgb(212, 209, 209);
+}
+
+.section1 .fila2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    font-size: 10px;
+}
+
+.fila2 .borde {
+    border-radius: 3px;
+    border: solid 1px rgb(61, 57, 57);
+}
+
+.section1 .fila3 {
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-size: 0.8rem;
+    gap: 10px;
+}
+
+.fila3 span {
+    width: 5rem;
+    height: 5rem;
+}
+
+.section1 .fila4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+
+    gap: 10px;
+}
+
+.fila4 .circulo1 {
+    border-radius: 7px;
+    border: solid 1px rgb(33, 32, 32);
+}
+
+.fila4 .circulo2 {
+    border-radius: 7px;
+    border: solid 1px #7622D7;
+    background-color: #7622D7;
+    color: white;
+}   
+
+.fila4 img {
+    width: 15rem;
+    height: 5rem;
+}
+
+.section1 .fila5 {
+    background-color: rgb(212, 209, 209);
+}
+
+.fila5 .circulo3 {
+    width: 6.5rem;
+    border-radius: 7px;
+    border: solid 1px #7622D7;
+    background-color: #7622D7;
+    color: white;
+}
+
+.section1 .fila6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fila6 img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.fila6 .p3 {
+    font-size: 10px;
+}
